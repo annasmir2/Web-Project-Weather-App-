@@ -1,0 +1,232 @@
+/* Add this CSS to your existing stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,800&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  flex: 1;
+}
+navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+  color: #ffc107; /* Yellow text color for the brand */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* White color for the toggle icon */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* White text color for the navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #17a2b8; /* Light blue text color on hover for the navigation links */
+}
+
+.container-fluid.main_menu {
+  background-color: #343a40; /* Dark background color for the container */
+}
+
+/* Add this CSS to your existing stylesheet */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure images cover the entire carousel item */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #ffffff; /* Set color for carousel control icons */
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #ffffff; /* Set color for carousel indicator dots */
+  border: 1px solid #343a40; /* Border color for carousel indicator dots */
+}
+
+.carousel-indicators .active {
+  background-color: #343a40; /* Active dot color */
+}
+/* Add this CSS to your existing stylesheet */
+.main_header_left p {
+  font-size: 1.2em;
+  color: #6c757d; /* Medium gray for paragraph text */
+}
+.main_header_left {
+  /* height: 70rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main_header_right {
+  /* height: 70rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.btn {
+  background-color: gray;
+  color: white;
+}
+.main_header_left h1 {
+  font-size: 2.5em;
+  color: #343a40; /* Dark gray for heading text */
+  margin-bottom: 20px;
+}
+
+.main_header_left a.btn {
+  background-color: #007bff; /* Primary blue button color */
+  color: #ffffff; /* White text for button */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.main_header_left a.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Adjust the carousel caption color for better visibility */
+.carousel-caption {
+  color: #ffffff;
+}
+footer {
+  width: 100%;
+  background-color: #343a40;
+  padding: 10px 0; /* Optional: Adjust padding to the footer as needed */
+  margin-top: 10px;
+}
+
+footer p {
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 5rem; /* Adjust line height as needed */
+}
+.fot {
+  margin-top: 80px !important;
+}
+
+.img-fluid {
+  margin-top: 17px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  width: 55rem;
+  height: 40rem;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#city_name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+#done {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#done:hover {
+  background-color: #45a049;
+}
+
+.info {
+  text-align: center;
+}
+
+.toplayer {
+  background: linear-gradient(to right, #3498db, #6dd5fa);
+  color: white;
+  padding: 10px;
+}
+
+.main_layer {
+  background-color: #bbbbbb;
+  padding: 20px;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+
+.middle_layer {
+  background-color: #ece9e9;
+  border-radius: 5px;
+}
+.middle_layer span {
+  font-size: 48px;
+  font-weight: bold;
+
+  /* display: inline-block; Ensure proper spacing with inline elements */
+}
+
+#temp {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: black;
+  display: inline-block; /* Ensure proper spacing with inline elements */
+  align-items: center;
+}
+
+#temp sup {
+  font-size: 24px;
+}
+
+#temp_status {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 10px;
+  display: block; /* Ensure each status appears on a new line */
+  align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .col-md-10 {
+    width: 100%;
+  }
+
+  .middle_layer {
+    margin-top: 10px;
+  }
+}
